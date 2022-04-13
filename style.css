@@ -19,6 +19,10 @@ ul li a {
     text-decoration: none;
 }
 
+ul li a:hover {
+    text-decoration: underline;
+}
+
 div img {
     display: block;
     width: 100%;
@@ -82,6 +86,13 @@ header .menu {
     height: 50px;
     line-height: 50px;
     margin: 10px 0;
+}
+
+.btn:hover {
+    background-color: var(--cor-branco);
+    color: var(--cor-azul-fundo);
+    transition: all .4s;
+    border: 1px solid var(--cor-azul-fundo);
 }
 
 #quem-somos {
@@ -152,6 +163,13 @@ header .menu {
     font-size: 12px;
     text-decoration: none;
     font-weight: 700;
+}
+
+.item-servico a:hover {
+    transition: all .4s;
+    background-color: var(--cor-azul-fundo);
+    color: var(--cor-branco);
+    border: 1px solid var(--cor-branco);
 }
 
 .item-servico p {
@@ -255,6 +273,7 @@ footer .footer {
     }
 
     .apresentacao {
+        height: 50vh;
         flex-direction: column-reverse;
     }
 
